@@ -20,6 +20,7 @@ config ARM_VIRT
     select PCI_EXPRESS
     select PCI_EXPRESS_GENERIC_BRIDGE
     select PFLASH_CFI01
+    select VERILOG_UART
     select PL011 if !HAVE_RUST # UART
     select X_PL011_RUST if HAVE_RUST # UART
     select PL031 # RTC
